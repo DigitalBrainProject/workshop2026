@@ -1,0 +1,8 @@
+baseURL = "https://digitalbrainproject.github.io/workshop2026/"
+languageCode = "en-us"
+title = "3rd Digital Brain Workshop 2026"
+enableEmoji = true
+disableKinds = ["taxonomy", "term"]
+
+[minify]
+  disableHTML = false
