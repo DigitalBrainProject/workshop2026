@@ -9,7 +9,7 @@ organizer: "AMED Brain/MINDS 2.0 Digital Brain Team"
 contactName: "Zhe Sun, PhD"
 contactTitle: "Associate Professor, Faculty of Health Data Science / Computational Bioengineering Laboratory, Juntendo University"
 contactEmail: "z.sun.kc@juntendo.ac.jp"
-mapQuery: "Juntendo University Urayasu-Hinode Campus Building 2 Room 2411"
+mapQuery: "順天堂大学浦安日の出キャンパス"
 heroCtaLabel: "Registration"
 
 # Optional alert banner shown under the header. Uncomment + edit to switch on; leave commented to hide.
@@ -20,7 +20,7 @@ heroCtaLabel: "Registration"
 # How to reach the venue. Fill in real transit details; entries with "To be announced" still render.
 directions:
   - label: "Nearest Station"
-    text: "To be announced"
+    text: "Shin-Urayasu Station"
   - label: "From Tokyo / Narita / Haneda"
     text: "To be announced"
   - label: "On Campus"
