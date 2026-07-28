@@ -659,8 +659,8 @@ img {
   --session-bg: #eefaf3;
 }
 
-.legend-tbd::before,
-.session-tbd {
+.legend-break::before,
+.session-break {
   --session-color: #687183;
   --session-bg: #f2f4f7;
 }
@@ -789,6 +789,42 @@ img {
   color: var(--white);
   font-weight: 800;
   text-decoration: none;
+}
+
+.guide-downloads {
+  margin-top: 1.25rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--line);
+}
+
+.guide-downloads h4 {
+  margin: 0 0 0.75rem;
+  color: var(--ink);
+  font-size: 0.95rem;
+}
+
+.guide-link-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+}
+
+.download-link {
+  display: inline-flex;
+  min-height: 2.5rem;
+  align-items: center;
+  justify-content: center;
+  padding: 0.55rem 0.85rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--white);
+  color: var(--blue);
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.download-link:hover {
+  border-color: var(--blue);
 }
 
 .map-frame {

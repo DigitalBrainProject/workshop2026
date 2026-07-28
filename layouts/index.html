@@ -256,6 +256,16 @@
                 {{ end }}
               </dl>
               <a class="map-link" href="https://www.google.com/maps/search/?api=1&query={{ $workshop.mapQuery | urlquery }}" target="_blank" rel="noopener noreferrer">Open in Google Maps</a>
+              {{ with $workshop.accessGuides }}
+                <div class="guide-downloads">
+                  <h4>Access Guide Downloads</h4>
+                  <div class="guide-link-list">
+                    {{ range . }}
+                      <a class="download-link" href="{{ .href | relURL }}" download>{{ .label }}</a>
+                    {{ end }}
+                  </div>
+                </div>
+              {{ end }}
             </div>
             <div class="map-frame">
               <iframe
