@@ -207,7 +207,7 @@
           {{ with $workshop.registration }}
             <div class="registration-panel">
               <div class="registration-status">
-                <span class="status-badge{{ if .formUrl }} status-open{{ end }}">{{ .status }}</span>
+                <span class="status-badge{{ if eq (lower .status) "open" }} status-open{{ end }}">{{ .status }}</span>
                 {{ with .deadline }}<span class="status-deadline">Deadline: {{ . }}</span>{{ end }}
               </div>
               <h3>{{ .headline }}</h3>
