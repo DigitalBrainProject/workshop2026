@@ -253,14 +253,15 @@ organizers:
     affiliation: "University of Fukui"
     role: "Organizing Chair"
     link: ""
+  - name: "Daisuke Tagami"
+    affiliation: "Kyushu University"
+    role: "Organizing Chair"
+    link: ""
   - name: "Zhe Sun"
     affiliation: "Faculty of Health Data Science, Juntendo University"
     role: "Organizing Chair"
     link: ""
-  - name: "Organizing Committee"
-    affiliation: "Full committee to be announced"
-    role: "Committee"
-    link: ""
+
 
 # Hosting / supporting organizations.
 supporters:
