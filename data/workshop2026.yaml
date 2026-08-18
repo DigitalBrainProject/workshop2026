@@ -38,7 +38,7 @@ directions:
   - label: "Lunch and Nearby Options"
     text: "Lunch break and lunch box details will be announced later."
   - label: "Accommodation"
-    text: "Participants should arrange their own accommodation. Early booking is recommended because the workshop falls during a three-day weekend."
+    text: "Participants should arrange their own accommodation. Early booking is recommended because the workshop falls during a three-day weekend. Recommended hotels are listed in the guide files below."
 
 accessGuides:
   - label: "Access Guide (English PDF)"
@@ -83,7 +83,7 @@ facts:
     note: "Planned; on-site cash payment only"
   - label: "Participants"
     value: "Approx. 40"
-    note: "Graduate students and above; researchers and students interested in digital brain research, computational neuroscience, and brain simulation"
+    note: "Researchers and students interested in digital brain research, computational neuroscience, and brain simulation"
   - label: "Language"
     value: "English-centered"
     note: "The workshop will be conducted primarily in English"
@@ -213,9 +213,10 @@ program:
     date: "October 12, 2026"
     sessions:
       - time: "09:00-10:30"
-        title: "Young Researchers in Mathematical Neuroscience Session"
+        title: "Mathematical Neuroscience Unification Challenge"
+        organizers: "Members of the Young Researchers' Association for Mathematical Neuroscience and Daisuke Tagami (Kyushu University)"
+        description: "Case presentations by early-career researchers on mathematical approaches to brain research, followed by a team-based unification challenge and expert commentary."
         type: "lecture"
-        note: "Program content, speakers, and presentation format are to be announced."
       - time: "10:30-11:45"
         title: "Invited Talk 2 / Special Lecture"
         speaker: "To be announced"
@@ -226,12 +227,12 @@ program:
         type: "closing"
 
 registration:
-  status: "Opening Soon"
+  status: "Open"
   deadline: "To be announced"
-  headline: "Registration is scheduled to open on August 4, 2026"
-  note: "Capacity is approximately 40 participants. The workshop is primarily intended for graduate students and above. The registration fee is JPY 4,000 and is payable on site in cash only. Details on the application form, deadline, acceptance notification, cancellation policy, poster presentation option, required PC, server pre-registration, and advance preparation will be announced."
-  ctaLabel: "Registration Form"
-  formUrl: ""
+  headline: "Registration is now open"
+  note: "Capacity is approximately 40 participants. The workshop is primarily intended for graduate students and above. The registration fee is JPY 4,000 and is payable on site in cash only. Please complete the registration form. Details on acceptance notification, cancellation policy, poster presentation option, required PC, server pre-registration, and advance preparation will be announced."
+  ctaLabel: "Register Now"
+  formUrl: "https://docs.google.com/forms/d/e/1FAIpQLSddK2SgBt7LtqX3oZdYEknzpkral22meV5K4hmNhki6qwiS1A/viewform?usp=header"
 
 fees:
   - title: "Workshop Registration"
@@ -255,13 +256,12 @@ organizers:
     link: ""
   - name: "Daisuke Tagami"
     affiliation: "Kyushu University"
-    role: "Organizing Chair"
+    role: "Organizing Committee"
     link: ""
   - name: "Zhe Sun"
     affiliation: "Faculty of Health Data Science, Juntendo University"
     role: "Organizing Chair"
     link: ""
-
 
 # Hosting / supporting organizations.
 supporters:
