@@ -187,6 +187,8 @@
                       <div class="session-body">
                         <h4>{{ .title }}</h4>
                         {{ with .speaker }}<p class="session-speaker">{{ . }}</p>{{ end }}
+                        {{ with .organizers }}<p class="session-organizers"><strong>Organizers:</strong> {{ . }}</p>{{ end }}
+                        {{ with .description }}<p class="session-description">{{ . }}</p>{{ end }}
                         {{ with .note }}<p class="session-note">{{ . }}</p>{{ end }}
                       </div>
                     </div>
@@ -207,7 +209,7 @@
           {{ with $workshop.registration }}
             <div class="registration-panel">
               <div class="registration-status">
-                <span class="status-badge{{ if eq (lower .status) "open" }} status-open{{ end }}">{{ .status }}</span>
+                <span class="status-badge{{ if .formUrl }} status-open{{ end }}">{{ .status }}</span>
                 {{ with .deadline }}<span class="status-deadline">Deadline: {{ . }}</span>{{ end }}
               </div>
               <h3>{{ .headline }}</h3>
@@ -255,17 +257,14 @@
                   </div>
                 {{ end }}
               </dl>
-              <a class="map-link" href="https://www.google.com/maps/search/?api=1&query={{ $workshop.mapQuery | urlquery }}" target="_blank" rel="noopener noreferrer">Open in Google Maps</a>
               {{ with $workshop.accessGuides }}
-                <div class="guide-downloads">
-                  <h4>Access Guide Downloads</h4>
-                  <div class="guide-link-list">
-                    {{ range . }}
-                      <a class="download-link" href="{{ .href | relURL }}" download>{{ .label }}</a>
-                    {{ end }}
-                  </div>
+                <div class="access-guide-links" aria-label="Access guide downloads">
+                  {{ range . }}
+                    <a class="access-guide-link" href="{{ .href | relURL }}" download>{{ .label }}</a>
+                  {{ end }}
                 </div>
               {{ end }}
+              <a class="map-link" href="https://www.google.com/maps/search/?api=1&query={{ $workshop.mapQuery | urlquery }}" target="_blank" rel="noopener noreferrer">Open in Google Maps</a>
             </div>
             <div class="map-frame">
               <iframe
