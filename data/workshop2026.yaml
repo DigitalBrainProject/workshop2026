@@ -82,7 +82,7 @@ facts:
     value: "JPY 4,000"
     note: "Planned; on-site cash payment only"
   - label: "Participants"
-    value: "Approx. 40"
+    value: "Approx. 50"
     note: "Researchers and students interested in digital brain research, computational neuroscience, and brain simulation"
   - label: "Language"
     value: "English-centered"
@@ -230,7 +230,7 @@ registration:
   status: "Open"
   deadline: "To be announced"
   headline: "Registration is now open"
-  note: "Capacity is approximately 40 participants. The workshop is primarily intended for graduate students and above. The registration fee is JPY 4,000 and is payable on site in cash only. Please complete the registration form. Details on acceptance notification, cancellation policy, poster presentation option, required PC, server pre-registration, and advance preparation will be announced."
+  note: "Capacity is approximately 50 participants. The workshop is primarily intended for graduate students and above. The registration fee is JPY 4,000 and is payable on site in cash only. Please complete the registration form. Details on acceptance notification, cancellation policy, poster presentation option, required PC, server pre-registration, and advance preparation will be announced."
   ctaLabel: "Register Now"
   formUrl: "https://docs.google.com/forms/d/e/1FAIpQLSddK2SgBt7LtqX3oZdYEknzpkral22meV5K4hmNhki6qwiS1A/viewform?usp=header"
 
