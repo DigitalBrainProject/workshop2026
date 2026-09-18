@@ -161,7 +161,7 @@ program:
     sessions:
       - time: "13:00-13:15"
         title: "Opening Remarks"
-        speaker: "Zhe Sun (Juntendo University)"
+        speaker: "Kenji Doya (OIST)"
         type: "closing"
       - time: "13:15-14:45"
         title: "Invited Talk 1"
@@ -183,7 +183,7 @@ program:
     date: "October 11, 2026"
     sessions:
       - time: "09:00-12:00"
-        title: "NeuroWorkflow Tutorial & Hands-on Part 2"
+        title: "NeuroWorkflow Tutorial & Hands-on Part"
         speaker: "Carlos Gutierrez (OIST)"
         type: "hands-on"
         note: "Hands-on work using the RIKEN CBS server and backup environment. Participants will need advance server registration and preparation."
