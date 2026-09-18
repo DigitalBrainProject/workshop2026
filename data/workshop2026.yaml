@@ -218,7 +218,7 @@ program:
         type: "lecture"
       - time: "11:45-12:00"
         title: "Closing Remarks"
-        speaker: "Kenji Doya (OIST)"
+        speaker: "Ryutaro Himeno (Juntendo University)"
         type: "closing"
 
 registration:
