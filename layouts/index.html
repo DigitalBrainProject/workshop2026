@@ -321,6 +321,11 @@
             <p class="contact-copy">
               This workshop will provide an opportunity for students, early-career researchers, faculty members, and engineers interested in digital brain research, neuroimaging, computational neuroscience, health data science, and bioengineering to interact directly with leading international researchers.
             </p>
+            {{ with resources.Get "amed-logo.jpg" }}
+              <div class="organizer-logo">
+                <img src="{{ .RelPermalink }}" alt="Japan Agency for Medical Research and Development (AMED)" loading="lazy">
+              </div>
+            {{ end }}
           </div>
           <address class="contact-card">
             <strong>{{ $workshop.contactName }}</strong>

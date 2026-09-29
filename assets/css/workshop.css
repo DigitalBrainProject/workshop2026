@@ -859,6 +859,21 @@ img {
   color: rgba(255, 255, 255, 0.76);
 }
 
+.organizer-logo {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 1.75rem;
+  padding: 1rem 1.4rem;
+  background: var(--white);
+  border-radius: 12px;
+}
+
+.organizer-logo img {
+  height: 4.5rem;
+  width: auto;
+  display: block;
+}
+
 .contact-card {
   padding: 1.35rem;
   color: var(--white);
