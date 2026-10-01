@@ -57,8 +57,8 @@ navigation:
     href: "#contact"
 
 intro:
-  - "We are pleased to announce the 3rd Digital Brain Workshop 2026, an in-person international workshop related to digital brain research, computational neuroscience, brain simulation, visualization, and open science platforms in the context of AMED Brain/MINDS 2.0."
-  - "Through invited lectures and hands-on sessions, participants will learn about data analysis, neural network model construction, Human Connectome Data, brain simulation, visualization tools, and practical digital brain research workflows."
+  - "We are pleased to announce the 3rd Digital Brain Workshop 2026, an in-person international workshop related to digital brain research, computational neuroscience, mathematical sciences, brain simulation, visualization, and open science platforms in the context of AMED Brain/MINDS 2.0."
+  - "Through invited lectures and hands-on sessions, participants will learn about data analysis, mathematical sciences, neural network model construction, Human Connectome Data, brain simulation, visualization tools, and practical digital brain research workflows."
 
 facts:
   - label: "Dates"
@@ -82,7 +82,7 @@ facts:
 
 overviewCards:
   - title: "Research Scope"
-    text: "Digital brain research, data analysis, neural network model construction, Human Connectome Data, brain simulation, visualization, and open science platforms."
+    text: "Digital brain research, mathematical sciences, data analysis, neural network model construction, Human Connectome Data, brain simulation, visualization, and open science platforms."
   - title: "Who Should Attend"
     text: "Graduate students and above, researchers, engineers, and related professionals interested in digital brain research, computational neuroscience, and brain simulation."
   - title: "Workshop Format"
@@ -270,3 +270,4 @@ organizers:
 supporters:
   - "Juntendo University"
   - "AMED Brain/MINDS 2.0"
+  - "Mathematics for Industry Platform"
