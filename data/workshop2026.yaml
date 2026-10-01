@@ -2,14 +2,14 @@ title: "3rd Digital Brain Workshop 2026"
 subtitle: "International Workshop on Digital Brain Research"
 dateRange: "October 10-12, 2026"
 venueShort: "Juntendo University, Urayasu-Hinode Campus"
-venueRoom: "Building 2, 4th Floor, Room 2411; hands-on operation rooms: 2412 and 2413"
+venueRoom: "Building 2, 4th Floor, Room 12 (Room 2412)"
 address: "6-8-1 Hinode, Urayasu, Chiba 279-0013, Japan"
 fee: "Registration fee: JPY 4,000 (planned)"
 organizer: "AMED Brain/MINDS 2.0 Digital Brain Team"
 contactName: "Zhe Sun, PhD"
 contactTitle: "Associate Professor, Faculty of Health Data Science / Computational Bioengineering Laboratory, Juntendo University"
 contactEmail: "z.sun.kc@juntendo.ac.jp"
-mapQuery: "Juntendo University Urayasu-Hinode Campus Building 2 Room 2411"
+mapQuery: "Juntendo University Urayasu-Hinode Campus Building 2 Room 2412"
 heroCtaLabel: "Registration"
 
 # Optional alert banner shown under the header. Uncomment + edit to switch on; leave commented to hide.
@@ -17,7 +17,7 @@ heroCtaLabel: "Registration"
 #   title: "Important Notice"
 #   text: "Update text goes here. Details will be sent by email."
 
-# How to reach the venue. Fill in real transit details; entries with "To be announced" still render.
+# How to reach the venue.
 directions:
   - label: "Nearest Station"
     text: "JR Shin-Urayasu Station"
@@ -28,7 +28,7 @@ directions:
   - label: "From Shin-Urayasu Station"
     text: "From Bus Stop C, take Bus Route 16 or 17 bound for Hinode Nanachome. The bus ride takes about 7 minutes. Route 16: get off at Juntendo Univ. Hinode Main Gate and walk about 1 minute. Route 17: get off at Juntendo Univ. Hinode East and walk about 5 minutes."
   - label: "On Campus"
-    text: "The main meeting room is on the 4th floor of Building 2, Room 2412. Hands-on operation rooms are Rooms 2412 and 2413. Please follow the campus guidance signs after arriving at the Urayasu-Hinode Campus."
+    text: "All workshop lectures and hands-on sessions will take place in Room 2412: Building 2, 4th Floor, Room 12. Please follow the campus guidance signs after arriving at the Urayasu-Hinode Campus."
   - label: "Accommodation"
     text: "Participants should arrange their own accommodation. Early booking is recommended because the workshop falls during a three-day weekend. Recommended hotels are listed in the guide files below."
 
@@ -66,7 +66,7 @@ facts:
     note: "Saturday to Monday, including a Japanese national holiday"
   - label: "Venue"
     value: "Juntendo University"
-    note: "Urayasu-Hinode Campus, Building 2, Room 2411; hands-on rooms 2412 and 2413"
+    note: "Urayasu-Hinode Campus, Building 2, 4th Floor, Room 12 (Room 2412)"
   - label: "Format"
     value: "In person"
     note: "English-centered program"
@@ -119,9 +119,11 @@ modules:
     text: "Poster presentations and research exchange by early-career researchers and students."
     type: "poster"
 
-# Add an optional `link:` (and optional `linkLabel:`) to any speaker to show a profile link.
-# Example:  link: "https://lab.example.edu/"   linkLabel: "Lab Website"
+# Add an optional link and linkLabel to any speaker to show a profile link.
 speakers:
+  - name: "Shunichi Amari"
+    location: "Japan"
+    role: "Invited Speaker"
   - name: "Bryan Caron"
     affiliation: "McGill University"
     location: "Canada"
@@ -130,18 +132,23 @@ speakers:
   - name: "Carlos Gutierrez"
     affiliation: "Okinawa Institute of Science and Technology Graduate University (OIST)"
     location: "Japan"
-    role: "Instructor"
-  - name: "Shunichi Amari"
-    location: "Japan"
-    role: "Invited Speaker"
+    role: "Invited Speakers and Instructors"
   - name: "Kenji Doya"
     affiliation: "Okinawa Institute of Science and Technology Graduate University (OIST)"
     location: "Japan"
-    role: "Invited Speaker"
+    role: "Organizer"
+  - name: "Ken Nakae"
+    affiliation: "University of Fukui"
+    location: "Japan"
+    role: "Organizer"
+  - name: "Daisuke Tagami"
+    affiliation: "Kyushu University"
+    location: "Japan"
+    role: "Organizer"
   - name: "Zhe Sun"
     affiliation: "Juntendo University"
     location: "Japan"
-    role: "Instructor / Organizer"
+    role: "Organizer"
 
 programLegend:
   - type: "lecture"
@@ -174,7 +181,7 @@ program:
         title: "Hands-on Part 1"
         speaker: "Bryan Caron"
         type: "hands-on"
-        note: "Operation rooms: Building 2, Rooms 2412 and 2413. Explanation, examples, team formation, and initial hands-on work. Participants will be organized into 4-5 teams."
+        note: "Operation room: Building 2, 4th Floor, Room 12 (Room 2412). Explanation, examples, team formation, and initial hands-on work. Participants will be organized into 4-5 teams."
       - time: "17:30-"
         title: "Welcome Reception & Poster Session"
         type: "poster"
@@ -247,7 +254,7 @@ fees:
   - title: "Further Details"
     text: "Details on poster submission, PC requirements, server pre-registration, and advance preparation will be announced later."
 
-# Organizing committee. Add real members here; each may include an optional link/linkLabel.
+# Organizing committee.
 organizers:
   - name: "Kenji Doya"
     affiliation: "Okinawa Institute of Science and Technology Graduate University (OIST)"
