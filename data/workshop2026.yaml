@@ -221,10 +221,6 @@ program:
         speaker: "Binghua Li (Juntendo University)"
         type: "Talk"
         note: "From Healthy-Brain Pretraining to Efficient Adaptation and Acquisition Synthesis"
-      # - time: "Evening"
-      #   title: "Informal Networking Dinner"
-      #   type: "poster"
-      #   note: "Optional; charged separately at actual cost."
   - day: "Day 3"
     date: "October 12, 2026"
     sessions:
