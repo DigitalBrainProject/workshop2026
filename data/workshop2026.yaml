@@ -129,6 +129,8 @@ speakers:
     location: "Canada"
     role: "Invited Speaker"
     link: ""
+  - name: "Tanaka Saori"
+    role: "Invited Speaker"
   - name: "Carlos Gutierrez"
     affiliation: "Okinawa Institute of Science and Technology Graduate University (OIST)"
     location: "Japan"
