@@ -130,6 +130,8 @@ speakers:
     role: "Invited Speaker"
     link: ""
   - name: "Tanaka Saori"
+    affiliation: "Nara Institute of Science and Technology (NAIST); ATR Brain Information Communication Research Lab. Group"
+    location: "Japan"
     role: "Invited Speaker"
   - name: "Carlos Gutierrez"
     affiliation: "Okinawa Institute of Science and Technology Graduate University (OIST)"
