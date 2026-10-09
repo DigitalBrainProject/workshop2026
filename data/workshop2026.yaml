@@ -260,12 +260,11 @@ program:
         type: "closing"
 
 registration:
-  status: "Closed"
-  deadline: "October 3, 23:59"
-  headline: "Registration is now Closed"
+  status: "Open"
+  headline: "Registration is now Open"
   note: "Capacity is approximately 50 participants. The workshop is primarily intended for graduate students and above. Workshop participation and the optional lunch box are free of charge. Please complete the registration form. Details on acceptance notification, cancellation policy, poster presentation option, required PC, server pre-registration, and advance preparation will be announced."
-  # ctaLabel: "Register Now"
-  # formUrl: "https://docs.google.com/forms/d/e/1FAIpQLSddK2SgBt7LtqX3oZdYEknzpkral22meV5K4hmNhki6qwiS1A/viewform?usp=header"
+  ctaLabel: "Register Now"
+  formUrl: "https://docs.google.com/forms/d/e/1FAIpQLSddK2SgBt7LtqX3oZdYEknzpkral22meV5K4hmNhki6qwiS1A/viewform?usp=header"
 
 fees:
   - title: "Workshop Registration"
@@ -300,4 +299,5 @@ organizers:
 supporters:
   - "Juntendo University"
   - "AMED Brain/MINDS 2.0"
+  - "MINIMAX"
   - "Mathematics for Industry Platform"
