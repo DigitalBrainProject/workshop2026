@@ -194,7 +194,7 @@ program:
       - time: "17:00-"
         title: "Welcome Reception & Poster Session"
         type: "poster"
-        note: "Day 1 reception is free of charge."
+        note: "Day 1 reception is free of charge. Location: 5F Learning Commons, Bldg 2"
   - day: "Day 2"
     date: "October 11, 2026"
     sessions:
@@ -231,7 +231,7 @@ program:
         speaker: "Tanaka Saori (NAIST / ATR)"
         type: "lecture"
       - time: "17:30-17:50"
-        title: "Talk: Brain Imaging AI Under Limited Resources"
+        title: "Talk: Towards Practical Medical Imaging Foundation Models-Transferability, Adaptability, and Domain Awareness in Brain MRI"
         speaker: "Binghua Li (Juntendo University)"
         type: "lecture"
         note: "From Healthy-Brain Pretraining to Efficient Adaptation and Acquisition Synthesis"
