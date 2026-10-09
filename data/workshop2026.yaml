@@ -254,18 +254,18 @@ program:
         type: "closing"
 
 registration:
-  status: "Open"
+  status: "Closed"
   deadline: "October 3, 23:59"
-  headline: "Registration is now open"
+  headline: "Registration is now Closed"
   note: "Capacity is approximately 50 participants. The workshop is primarily intended for graduate students and above. Workshop participation and the optional lunch box are free of charge. Please complete the registration form. Details on acceptance notification, cancellation policy, poster presentation option, required PC, server pre-registration, and advance preparation will be announced."
-  ctaLabel: "Register Now"
-  formUrl: "https://docs.google.com/forms/d/e/1FAIpQLSddK2SgBt7LtqX3oZdYEknzpkral22meV5K4hmNhki6qwiS1A/viewform?usp=header"
+  # ctaLabel: "Register Now"
+  # formUrl: "https://docs.google.com/forms/d/e/1FAIpQLSddK2SgBt7LtqX3oZdYEknzpkral22meV5K4hmNhki6qwiS1A/viewform?usp=header"
 
 fees:
   - title: "Workshop Registration"
     text: "Workshop participation is free of charge."
   - title: "Reception and Dinner"
-    text: "The Day 1 welcome reception and poster session are planned. The Day 2 informal networking dinner is optional and charged separately at actual cost."
+    text: "The Day 1 welcome reception and poster session are planned (5F Learning Commons, Bldg 2). The Day 2 informal networking dinner is optional and charged separately at actual cost."
   - title: "Lunch"
     text: "Lunch box (free of charge), optional."
   - title: "Further Details"
