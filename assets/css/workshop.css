@@ -884,18 +884,31 @@ img {
 }
 
 .organizer-logo {
-  display: inline-flex;
+  display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  margin-top: 1.75rem;
-  padding: 1rem 1.4rem;
+  justify-content: center;
+  gap: 2.5rem;
+  width: 100%;
+  margin-top: 2rem;
+  padding: 1.5rem 1.4rem;
   background: var(--white);
   border-radius: 12px;
 }
 
 .organizer-logo img {
-  height: 4.5rem;
   width: auto;
   display: block;
+}
+
+.organizer-logo-amed {
+  height: 4rem;
+}
+
+.organizer-logo-minimax {
+  height: 2.9rem;
+  padding-left: 2.5rem;
+  border-left: 1px solid rgba(0, 0, 0, 0.12);
 }
 
 .contact-card {

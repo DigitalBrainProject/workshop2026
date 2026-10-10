@@ -325,28 +325,33 @@
       {{ end }}
 
       <section class="section section-dark" id="contact" aria-labelledby="contact-heading">
-        <div class="container contact-layout">
-          <div>
-            <div class="section-heading section-heading-on-dark">
-              <span>Organizer</span>
-              <h2 id="contact-heading">{{ $workshop.organizer }}</h2>
-            </div>
-            <p class="contact-copy">
-              This workshop will provide an opportunity for students, early-career researchers, faculty members, and engineers interested in digital brain research, neuroimaging, computational neuroscience, health data science, and bioengineering to interact directly with leading international researchers.
-            </p>
-            {{ with resources.Get "amed-logo.jpg" }}
-              <div class="organizer-logo">
-                <img src="{{ .RelPermalink }}" alt="Japan Agency for Medical Research and Development (AMED)" loading="lazy">
+        <div class="container">
+          <div class="contact-layout">
+            <div>
+              <div class="section-heading section-heading-on-dark">
+                <span>Organizer</span>
+                <h2 id="contact-heading">{{ $workshop.organizer }}</h2>
               </div>
+              <p class="contact-copy">
+                This workshop will provide an opportunity for students, early-career researchers, faculty members, and engineers interested in digital brain research, neuroimaging, computational neuroscience, health data science, and bioengineering to interact directly with leading international researchers.
+              </p>
+            </div>
+            <address class="contact-card">
+              <strong>{{ $workshop.contactName }}</strong>
+              <span>{{ $workshop.contactTitle }}</span>
+              {{ with resources.Get "contact-email.png" }}
+                <img class="email-image" src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="Email address of the workshop organizer" loading="lazy">
+              {{ end }}
+            </address>
+          </div>
+          <div class="organizer-logo">
+            {{ with resources.Get "amed-logo.jpg" }}
+              <img class="organizer-logo-amed" src="{{ .RelPermalink }}" alt="Japan Agency for Medical Research and Development (AMED)" loading="lazy">
+            {{ end }}
+            {{ with resources.Get "minimax-logo.jpg" }}
+              <img class="organizer-logo-minimax" src="{{ .RelPermalink }}" alt="MiniMax" loading="lazy">
             {{ end }}
           </div>
-          <address class="contact-card">
-            <strong>{{ $workshop.contactName }}</strong>
-            <span>{{ $workshop.contactTitle }}</span>
-            {{ with resources.Get "contact-email.png" }}
-              <img class="email-image" src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="Email address of the workshop organizer" loading="lazy">
-            {{ end }}
-          </address>
         </div>
       </section>
     </main>
