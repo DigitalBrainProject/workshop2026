@@ -756,6 +756,30 @@ img {
   font-weight: 700;
 }
 
+.session-talks {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.session-talk {
+  padding-top: 0.85rem;
+  border-top: 1px solid var(--line);
+}
+
+.session-talk time {
+  display: block;
+  margin-bottom: 0.35rem;
+  font-size: 0.9rem;
+}
+
+.session-talk h5 {
+  margin: 0;
+  color: var(--ink);
+  font-size: 1rem;
+  line-height: 1.35;
+}
+
 .fee-card:first-child::before {
   background: var(--green);
 }

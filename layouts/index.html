@@ -190,6 +190,19 @@
                         {{ with .organizers }}<p class="session-organizers"><strong>Organizers:</strong> {{ . }}</p>{{ end }}
                         {{ with .description }}<p class="session-description">{{ . }}</p>{{ end }}
                         {{ with .note }}<p class="session-note">{{ . }}</p>{{ end }}
+                        {{ with .talks }}
+                          <div class="session-talks">
+                            {{ range . }}
+                              <div class="session-talk">
+                                <time>{{ .time }}</time>
+                                <h5>{{ .title }}</h5>
+                                {{ with .speaker }}<p class="session-speaker">{{ . }}</p>{{ end }}
+                                {{ with .description }}<p class="session-description">{{ . }}</p>{{ end }}
+                                {{ with .note }}<p class="session-note">{{ . }}</p>{{ end }}
+                              </div>
+                            {{ end }}
+                          </div>
+                        {{ end }}
                       </div>
                     </div>
                   {{ end }}
